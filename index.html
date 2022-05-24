@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Holland</title>
+
+    <link href='Resources/CSS/index.css' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+
+  </head>
+
+
+  <body>  	
+  	<header>
+      <!-- Navigation Bar-->
+      <!-- Example doesn't use the <nav> element but I want to see if I can set everything up in here  -->
+      <nav>
+        <ul>
+          <li><a target="_blank" href="index.html">Welcome</a></li>
+          <li><a target="_blank" href="Actor-Projects.html">Projects</a></li> 
+          <li><a target="_blank" href="Actor-Socials.html">Social Media</a></li>
+          
+          <!-- Simple Search Bar within the list element: 
+            (Works with display, want fancier one... 
+            that I have arbitrarily decided is better)-->
+
+          <!-- <li><input type="text" placeholder="Search.."></li> -->
+          
+
+
+          <!-- Search Bar with 'lil magnifying Glass Button -->
+          <!-- NOTE: Am struggling to acquire magnifying Glass -->
+          <li>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </li>
+
+
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Jumbotron Div contains Tom's Name, Main image, and a Check out my work button -->
+      <div class="jumbotron">
+        <div class="container">  
+          <h1>Tom Holland</h1>
+          <a target="_blank" href="/Actor-Projects.html" class="btn-main"> Check Out my Work!</a>
+        </div>
+      </div>
+    </main>
+
+     <section class="supporting">
+      <!-- This Div has two official trailer's of Tom's for the Welcome Page -->
+      <div class="container">
+        <h2>See Tom's Latest Trailer's below! To see more of Tom on set, head to <a target="_blank" href="/Actor-Projects.html">Projects</a></h2>
+        <!-- Spiderman Official Trailer -->
+        <div class="col">
+          <!--<video><video>-->
+          <h2>Spiderman Trailer</h2>
+          <p>Just your friendly neighborhood spiderman</p>
+          <a target="_blank" href= "https://www.google.com/"> Related Press</a><br>
+        </div>
+        
+        <!-- Uncharted Official Trailer -->
+        <div class="col">
+          <!--I need to figure this out-->
+          <video controls>
+            <source src="https://youtu.be/eHp3MbsCbMg" type="video/mp4"> width="320" height="240" controls> 
+            Video not supported    
+          </video>
+          <h2>Uncharted Trailer</h2>
+          <p>Bringing classic characters like (look it up) to the big screen</p>
+          <a target="_blank" href= "https://www.google.com/"> Related Press</a><br>
+        </div>
+      </div>
+     </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; Tom Holland 2022</p>
+      </div>
+    </footer>
+
+
+
+  </body>
+
+</html>

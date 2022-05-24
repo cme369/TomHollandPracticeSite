@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+ 
+  /*The next two lines didn't work as intended:;
+  I was going for a blue background but I think because
+  my other colors are also somewhat translucent, 
+  they're bleeding together a bit 
+  I kind of like the translucent vibe vs aggressive color blocks so unsure
+  if I should change that. I think if I wrote a line that just targets the body
+  it should work, but I want to get some other things in here before I try that*/
+
+
+  background-color: #169ee18f;
+  z-index:  0;
+}
+
+header {
+  background-color: #80e1e58f;
+  position: fixed;
+  height:  100%;
+  width: 20%;
+  z-index: 1;
+  color: white;
+}
+
+nav li {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  display: block;
+  width: 8rem;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 8rem;
+}
+
+main h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 7rem;
+  margin-top: 0rem;
+  padding-top: 8rem;
+  margin-bottom: 8rem;
+  text-transform: uppercase;
+}
+
+.container h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  /*font-weight: 600;*/
+  /*font-size: 7rem;*/
+  margin-top: 0rem;
+  padding-top: 8rem;
+  margin-bottom: 8rem;
+  /*text-transform: uppercase;*/
+}
+
+footer {
+  background-color: hsl(47deg 100% 50% / 48%);
+  color: #fff;
+  padding: 3rem 0;
+  display: fixed;
+  /*width:  100%;*/
+  /*I was hoping I could replicate the gray stretching 
+  across the screen like the nav bar but idk what's up*/
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  z-index:  1;
+}
+
+.container {
+  /*max-width: 9.4rem;-->*/
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+
+.jumbotron {
+  height: 800px;
+  background-image: url("https://media1.popsugar-assets.com/files/thumbor/wfSK_GXOevsjXMSywOLZ4DoNfEs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/03/12/143/n/45101125/804a25bc50b04e05_GettyImages-1208192060/i/tom-holland-best-black--white-pictures.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: .13rem;
+  padding: 1.6rem 2.5rem;
+  text-decoration: none; /*idk why this line of code is necessary?*/
+  text-transform: uppercase;
+}
+
+.supporting {
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 20rem;
+  height: 200rem;
+  padding: 2rem;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+

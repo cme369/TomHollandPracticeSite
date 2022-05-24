@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom's Projects</title>
+  
+    <link href='/Resources/CSS/index.css' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'/>
+  </head>
+
+  <header>
+    <!-- Navigation Bar-->
+    <!-- Example doesn't use the <nav> element but I want to see if I can set everything up in here  -->
+    <nav>
+      <ul>
+        <li><a target="_blank" href="index.html">Welcome</a></li>
+        <li><a target="_blank" href="Actor-Projects.html" class>Projects</a></li> 
+        <li><a target="_blank" href="Actor-Socials.html">Social Media</a></li>
+        
+        <!-- Simple Search Bar within the list element: 
+          (Works with display, want fancier one... 
+          that I have arbitrarily decided is better)-->
+
+        <!-- <li><input type="text" placeholder="Search.."></li> -->
+        
+
+
+        <!-- Search Bar with 'lil magnifying Glass Button -->
+        <!-- NOTE: Am struggling to acquire magnifying Glass -->
+        <li>
+          <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </li>
+
+
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <!-- I'm not quite sure why the CSS for the 
+    background won't apply to hte body here -->
+
+  <body>
+    <!-- Each Div Contains an image from a Movie/Performance of Tom's-->
+
+    <!-- Spiderman -->
+  	<div class="gallery">
+      <a target="_blank" href="https://cdn.vox-cdn.com/thumbor/bZmLbVehfpl14KXLTPE8mezTcsE=/0x0:2050x1080/1200x800/filters:focal(861x376:1189x704)/cdn.vox-cdn.com/uploads/chorus_image/image/65376921/spider_man_far_from_home_peter_parker_1562394390.0.jpg">
+        <img src="https://cdn.vox-cdn.com/thumbor/bZmLbVehfpl14KXLTPE8mezTcsE=/0x0:2050x1080/1200x800/filters:focal(861x376:1189x704)/cdn.vox-cdn.com/uploads/chorus_image/image/65376921/spider_man_far_from_home_peter_parker_1562394390.0.jpg" alt="Spiderman" width="600" height="400">
+      </a>
+      <div class="desc">Spiderman</div>
+    </div>
+
+    <!-- Uncharted -->
+    <div class="gallery">
+      <a target="_blank" href="https://assets.reedpopcdn.com/uncharted_movie_tom_holland.jpeg/BROK/resize/1200x1200%3E/format/jpg/quality/70/uncharted_movie_tom_holland.jpeg">
+        <img src="https://assets.reedpopcdn.com/uncharted_movie_tom_holland.jpeg/BROK/resize/1200x1200%3E/format/jpg/quality/70/uncharted_movie_tom_holland.jpeg" alt="Uncharted" width="600" height="400">
+      </a>
+      <div class="desc">Uncharted</div>
+    </div>
+
+    <!-- Billy Elliot -->
+    <div class="gallery">
+      <a target="_blank" href="https://betm.theskykid.com/wp-content/uploads/2014/10/Toms-Leaving-Show-May-29th-2010-02B.jpg">
+        <img src="https://betm.theskykid.com/wp-content/uploads/2014/10/Toms-Leaving-Show-May-29th-2010-02B.jpg" alt="Billy Elliot" width="600" height="400">
+      </a>
+      <div class="desc">Billy Elliot</div>
+    </div>
+
+
+
+  </body>
+
+</html>
